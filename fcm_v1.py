@@ -6,6 +6,7 @@ from firebase_admin import messaging
 
 # Don't forget to set GOOGLE_APPLICATION_CREDENTIALS
 # https://firebase.google.com/docs/cloud-messaging/auth-server#provide-credentials-manually
+# for launch:  python3 fcm_v1.py <token> title body
 
 script, registration_token, title, body = argv
 
